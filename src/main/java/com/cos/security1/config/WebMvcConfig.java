@@ -17,7 +17,10 @@ public class WebMvcConfig implements WebMvcConfigurer {
         resolver.setPrefix("classpath:/templates/");
         resolver.setSuffix(".html");
 
+
         registry.viewResolver(resolver);
+
+
 
     }
 }
